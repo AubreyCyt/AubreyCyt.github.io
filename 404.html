@@ -57,7 +57,7 @@
 <nav class="menu dis-select"></nav>
 </div>
 <div class="widgets">
-<widget class="widget-wrapper post-list"><div class="widget-header dis-select"><span class="name">Recent Update</span></div><div class="widget-body fs14"><a class="item title" href="/2024/09/25/About-me/"><span class="title">About me</span></a><a class="item title" href="/2024/09/23/cm2dcgwrd0001es5o5o25fwc4/"><span class="title">Hello World</span></a></div></widget>
+<widget class="widget-wrapper post-list"><div class="widget-header dis-select"><span class="name">Recent Update</span></div><div class="widget-body fs14"><a class="item title" href="/2024/09/25/About-me/"><span class="title">About me</span></a><a class="item title" href="/2024/09/23/cm2depi0b00011w5o4znbcc1g/"><span class="title">Hello World</span></a></div></widget>
 
 
 </div>
@@ -111,7 +111,7 @@
     ctx.search = {};
     ctx.search.service = `local_search`;
     if (ctx.search.service == 'local_search') {
-      let service_obj = Object.assign({}, `{"field":"all","path":"/search.json","content":true,"sort":"-date"}`);
+      let service_obj = Object.assign({}, `{"field":"all","path":"/search.json","content":true,"skip_search":null,"sort":"-date"}`);
       ctx.search[ctx.search.service] = service_obj;
     }
   }
