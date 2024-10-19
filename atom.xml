@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Aubrey Chen</title>
+  
+  <subtitle>to record my academic life!</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-10-17T14:52:32.003Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Chen Yu-tong (Aubrey Chen)</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>About me</title>
+    <link href="http://example.com/2024/09/25/About-me/"/>
+    <id>http://example.com/2024/09/25/About-me/</id>
+    <published>2024-09-25T10:37:30.000Z</published>
+    <updated>2024-10-17T14:52:32.003Z</updated>
+    
+    <content type="html"><![CDATA[<div align="center">    <font size=5><b>Chen, Yu-Tong 陈昱同</b></font></br>    <a href="mailto:AubreyChenyt@gmail.com">AubreyChenyt@gmail.com</a></br>    Institute of Atmospheric Physics, Chinese Academy of Sciences</br></div></br><h2 id="Education"><a href="#Education" class="headerlink" title="Education"></a>Education</h2><div>    <div style="float:left"><b>Sep.2021 - Jun.2024</b> &nbsp&nbsp <b>Institute of Atmospheric Physics, CAS</b></div>    <div style="float:right">Beijing, China</div></br>    <i>M.S in Atmospheric Sciences</i>    <ul>        <li>Master's thesis: Precipitation Numerical Forecast Correction Based on Sample Strategy and Physically Constrained Deep Learning</li>    </ul>    <div style="float:left"><b>Sep.2017 - Jun.2021</b> &nbsp&nbsp <b>Beijing Institute of Technology</b></div>    <div style="float:right">Beijing, China</div></br>    <i>B.S. in Applied Physics</i></div></br><h2 id="Interests"><a href="#Interests" class="headerlink" title="Interests"></a>Interests</h2><div><ul>    <li>AI for Atmospheric Sciences.</li>    <li>Physics-constrained deep learning.</li></ul></div></br><h2 id="Skills"><a href="#Skills" class="headerlink" title="Skills"></a>Skills</h2><div><ul>    <li>Proficiency in Python.</li>    <li>Manipulating scientific datasets.</li>    <li>Designing, programming, and training DL models on GPU servers.</li>    <li>Research experience in scientific DL for atmospheric science.</li></ul></div></br><h2 id="Publications"><a href="#Publications" class="headerlink" title="Publications"></a>Publications</h2><p>Wang Y, Huang G, Pan B, Lin P, Niklas B, Tao W, <b>Chen Y</b>, Liu B, Li H (2024) <font color="darkred">Correcting Climate Model Sea Surface Temperature Simulations with Generative Adversarial Networks: Climatology, Interannual Variability, and Extremes.</font> Adv Atmos Sci. <a href="https://doi.org/10.1007/s00376-024-3288-6">https://doi.org/10.1007/s00376-024-3288-6</a></p><p><b>Chen Y</b>, Wang Y, Huang G, Tian Q (2024) <font color="darkred">Coupling Physical Factors for Precipitation Forecast in China With Graph Neural Network.</font> Geophysical Research Letters 51:e2023GL106676. <a href="https://doi.org/10.1029/2023GL106676">https://doi.org/10.1029/2023GL106676</a></p><p><b>Chen Y</b>, Huang G, Wang Y, et al (2023) <font color="darkred">Improving the heavy rainfall forecasting using a weighted deep learning model.</font> Front Environ Sci 11:1116672. <a href="https://doi.org/10.3389/fenvs.2023.1116672">https://doi.org/10.3389/fenvs.2023.1116672</a></p></br><h2 id="Experiences"><a href="#Experiences" class="headerlink" title="Experiences"></a>Experiences</h2><div><ul>    <li><div style="float:left"><b>AGU23 oral presentation</b></div>    <div style="float:right">Online 2023</div></li>    Topic: Coupling Physical Factors for Precipitation Forecast in China with Graph Neural Network    <li><div style="float:left"><b>Scientific research training, Beijing Institute of Technology</b></div>    <div style="float:right">Beijing, China 2020</div></li>    Research Topic: Paper-based microfluidic chip for the detection of nitrite ions, trivalent iron ions, and nickel ions in water.    <li><div style="float:left"><b>Yan Jici summer internship, Institute of Physics, CAS</b></div>    <div style="float:right">Beijing, China 2019</div></li>    Research Topic: Studying the structure of DNA single molecules using magnetic tweezers.</ul></div></br><h2 id="Honours"><a href="#Honours" class="headerlink" title="Honours"></a>Honours</h2><div><b>Jul.2023</b> &nbsp&nbsp The First Qilu Fengyun Meteorological Intelligent Algorithm Challenge <i>Third Prize</i> (18/1248)</br><b>Dec.2019</b> &nbsp&nbsp Merit Student of Beijing Institute of Technology</br><b>Mar.2019</b> &nbsp&nbsp The First Prize Scholarship, Beijing Institute of Technolog</br></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div align=&quot;center&quot;&gt;
+    &lt;font size=5&gt;&lt;b&gt;Chen, Yu-Tong 陈昱同&lt;/b&gt;&lt;/font&gt;&lt;/br&gt;
+    &lt;a href=&quot;mailto:AubreyChenyt@gmail.com&quot;&gt;AubreyChenyt@gmail.co</summary>
+      
+    
+    
+    
+    <category term="My life" scheme="http://example.com/categories/My-life/"/>
+    
+    
+    <category term="Me" scheme="http://example.com/tags/Me/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2024/09/23/cm2fnxrg30003eo5ohiqdgqtw/"/>
+    <id>http://example.com/2024/09/23/cm2fnxrg30003eo5ohiqdgqtw/</id>
+    <published>2024-09-23T12:10:13.300Z</published>
+    <updated>2024-09-23T12:10:13.300Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
