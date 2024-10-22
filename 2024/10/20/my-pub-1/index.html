@@ -17,22 +17,27 @@
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000">
   <meta name="theme-color" content="#f9fafb">
   
-  <title>Publication list - Aubrey Chen</title>
+  <title>Front. Environ. Sci.: Improving the heavy rainfall forecasting using a weighted deep learning model - Aubrey Chen</title>
 
   
-    <meta name="description" content="PUBs brief  2024 Wang Y, Huang G, Pan B, Lin P, Niklas B, Tao W, Chen Y, Liu B, Li H (2024) Correcting Climate Model Sea Surface Temperature Simulations with Generative Adversarial Networks: Climatolo">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Publication list">
-<meta property="og:url" content="http://example.com/pubs/index.html">
+    <meta name="description" content="author: Chen Yutong, Huang Gang, Wang ya, et al.作者：陈昱同，黄刚，汪亚，等. keywords: bias correction deep learning data imbalance extreme rainfall关键词：偏差校正 深度学习 数据不均衡 极端降水 Abstract Weather forecasting has been pl">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Front. Environ. Sci.: Improving the heavy rainfall forecasting using a weighted deep learning model">
+<meta property="og:url" content="http://example.com/2024/10/20/my-pub-1/index.html">
 <meta property="og:site_name" content="Aubrey Chen">
-<meta property="og:description" content="PUBs brief  2024 Wang Y, Huang G, Pan B, Lin P, Niklas B, Tao W, Chen Y, Liu B, Li H (2024) Correcting Climate Model Sea Surface Temperature Simulations with Generative Adversarial Networks: Climatolo">
+<meta property="og:description" content="author: Chen Yutong, Huang Gang, Wang ya, et al.作者：陈昱同，黄刚，汪亚，等. keywords: bias correction deep learning data imbalance extreme rainfall关键词：偏差校正 深度学习 数据不均衡 极端降水 Abstract Weather forecasting has been pl">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/images/icon/PUBs-brief.svg">
-<meta property="article:published_time" content="2024-10-19T02:34:46.000Z">
-<meta property="article:modified_time" content="2024-10-20T12:50:36.876Z">
+<meta property="og:image" content="http://example.com/images/my-pub-1/@1.jpg">
+<meta property="og:image" content="http://example.com/images/my-pub-1/@2.png">
+<meta property="article:published_time" content="2024-10-20T02:44:09.000Z">
+<meta property="article:modified_time" content="2024-10-22T02:28:17.762Z">
 <meta property="article:author" content="Chen Yu-tong (Aubrey Chen)">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/images/icon/PUBs-brief.svg">
+<meta property="article:tag" content="DL">
+<meta property="article:tag" content="U-net">
+<meta property="article:tag" content="forecast">
+<meta property="article:tag" content="precipitation">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/images/my-pub-1/@1.jpg">
   
   
   
@@ -53,7 +58,7 @@
 </head>
 <body>
 
-<div class="l_body s:aa content tech" id="start" layout="page" ><aside class="l_left"><div class="leftbar-container">
+<div class="l_body s:aa content tech" id="start" layout="post" ><aside class="l_left"><div class="leftbar-container">
 
 
 <header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://aubreychen-homepage-gallery.oss-cn-beijing.aliyuncs.com/imghomepage_avatar.jpg" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">Aubrey Chen</div><div class="sub cap">to record my academic life!</div></a></div></header>
@@ -65,7 +70,7 @@
 <nav class="menu dis-select"><a class="nav-item" title="Post" href="/" style="color:#00BFFF"><svg t="1729300728920" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3997" width="200" height="200"><path d="M783.725714-0.073143a109.714286 109.714286 0 0 0-78.262857 32.841143L102.912 632.32a36.571429 36.571429 0 0 0-9.362286 16.091429l-92.16 329.142857a36.571429 36.571429 0 0 0 45.056 45.056l329.142857-92.16a36.571429 36.571429 0 0 0 16.091429-9.362286l599.552-602.550857 0.146286-0.073143a109.714286 109.714286 0 0 0 0-155.648l-0.146286-0.073143L862.061714 32.841143a109.641143 109.641143 0 0 0-78.336-32.914286z" fill="currentColor" p-id="3998"></path></svg></a><a class="nav-item" title="PUBs" href="/pubs/" style="color:#00EE76"><svg t="1729300963470" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4146" width="200" height="200"><path d="M466.285714 120.905143C393.947429 80.384 258.633143 30.72 109.421714 13.092571 49.298286 5.997714 0 55.588571 0 116.150857v585.142857c0 60.635429 49.517714 108.909714 109.129143 119.734857 134.582857 24.429714 246.564571 88.941714 318.025143 139.995429 11.995429 8.557714 25.234286 14.994286 39.131428 19.456V120.905143z m91.428572 859.574857c13.897143-4.388571 27.062857-10.898286 39.058285-19.382857 71.460571-51.053714 183.442286-115.638857 318.098286-140.068572 59.611429-10.825143 109.129143-59.099429 109.129143-119.734857v-585.142857C1024 55.588571 974.701714 5.997714 914.578286 13.165714c-149.211429 17.700571-284.525714 67.291429-356.864 107.812572v859.574857z" fill="currentColor" p-id="4147"></path></svg></a><a class="nav-item" title="Column" href="/" style="color:#FFC125"><svg t="1729303802682" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3997" width="200" height="200"><path d="M448.146286 58.88A109.714286 109.714286 0 0 0 379.099429 36.571429H109.714286A109.714286 109.714286 0 0 0 0 146.285714v731.428572a109.714286 109.714286 0 0 0 109.714286 109.714285h804.571428A109.714286 109.714286 0 0 0 1024 877.714286V292.571429a109.714286 109.714286 0 0 0-109.714286-109.714286H503.954286l-15.725715-62.902857a109.860571 109.860571 0 0 0-40.082285-61.074286z" fill="currentColor" p-id="3998"></path></svg></a><a class="nav-item" title="Life" href="/" style="color:#FF6A6A"><svg t="1729301274725" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4451" width="200" height="200"><path d="M294.331977 79.36c71.68 5.193143 146.432 40.228571 217.965714 110.957714 71.533714-70.802286 146.212571-105.691429 217.819429-110.738285 80.896-5.778286 152.356571 26.916571 204.068571 78.482285 101.668571 101.376 133.632 284.891429 7.460572 411.062857a35.108571 35.108571 0 0 1-1.316572 1.243429L536.873691 935.862857a36.571429 36.571429 0 0 1-49.152 0L84.265691 570.368a36.205714 36.205714 0 0 1-1.316571-1.243429c-126.829714-126.829714-95.085714-310.345143 6.948571-411.648 51.858286-51.492571 123.465143-83.968 204.434286-78.116571z" fill="currentColor" p-id="4452"></path></svg></a></nav>
 </div>
 <div class="widgets">
-<widget class="widget-wrapper markdown"><div class="widget-header dis-select"><span class="name">Personal Profile</span></div><div class="widget-body fs14"><p><b><font size=5 face="Lucida Handwriting">Chen Yu-Tong</font></b><br><br><font face="Segoe Print">PhD Candidate (incoming)</font><br><font face="Segoe Print" >Uni Leipzig</font><br><font face="Segoe Print" >AI for Atomspheric Sciences</font><br><font face="Segoe Print" ><a href="mailto:&#x41;&#x75;&#x62;&#x72;&#x65;&#x79;&#x43;&#104;&#101;&#x6e;&#x79;&#116;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;">&#x41;&#x75;&#x62;&#x72;&#x65;&#x79;&#x43;&#104;&#101;&#x6e;&#x79;&#116;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;</a></font></p>
+<widget class="widget-wrapper markdown"><div class="widget-header dis-select"><span class="name">Personal Profile</span></div><div class="widget-body fs14"><p><b><font size=5 face="Lucida Handwriting">Chen Yu-Tong</font></b><br><br><font face="Segoe Print">PhD Candidate (incoming)</font><br><font face="Segoe Print" >Uni Leipzig</font><br><font face="Segoe Print" >AI for Atomspheric Sciences</font><br><font face="Segoe Print" ><a href="mailto:&#x41;&#x75;&#98;&#x72;&#x65;&#x79;&#x43;&#x68;&#x65;&#110;&#x79;&#116;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#x41;&#x75;&#98;&#x72;&#x65;&#x79;&#x43;&#x68;&#x65;&#110;&#x79;&#116;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a></font></p>
 
 <div class="linklist center" style="grid-template-columns:repeat(1,1fr);">
 <a class="link" title="learn more about me" href="/about/"><div class="flex"><svg t="1729301383131" class="icon" viewBox="0 0 1027 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1003" width="200" height="200"><path d="M513.566305 298.622371m-298.622371 0a298.622371 298.622371 0 1 0 597.244742 0 298.622371 298.622371 0 1 0-597.244742 0Z" fill="#D8BFD8" p-id="1004"></path><path d="M1025.490369 921.88992l-24.742996-119.022345A263.640893 263.640893 0 0 0 738.38629 597.244742h-32.421858a91.719728 91.719728 0 0 0-39.674115 9.385275 367.305516 367.305516 0 0 1-305.448025 0 91.719728 91.719728 0 0 0-39.674115-9.385275h-32.421857a263.640893 263.640893 0 0 0-260.65467 205.622833L1.64224 921.88992A85.320677 85.320677 0 0 0 86.962917 1023.848129h849.793948A85.320677 85.320677 0 0 0 1025.490369 921.88992z" fill="#D8BFD8" p-id="1005"></path></svg><span>learn more about me</span></div></a></div></div></widget>
@@ -79,34 +84,69 @@
 
 
 
-<div class="article banner top">
+<div class="article banner top"><img class="bg lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/images/banner/banner-ai_rain-1.png">
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">Home</a>
-
-  <span class="sep"></span>
-  <a class="cap breadcrumb" href="/pubs/index.html">Publication list</a>
-  </div>
-<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2024-10-19T02:34:46.000Z">2024-10-19</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2024-10-20T12:50:36.876Z">2024-10-20</time></span></div></div></div>
+<span class="sep"></span><a class="cap breadcrumb" href="/">Blog</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/My-publication/">My publication</a></div>
+<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2024-10-20T02:44:09.000Z">2024-10-20</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2024-10-22T02:28:17.762Z">2024-10-22</time></span></div></div></div>
     
     <div class="bottom only-title">
       
       <div class="text-area">
-        <h1 class="text title"><span>Publication list</span></h1>
+        <h1 class="text title"><span>Front. Environ. Sci.: Improving the heavy rainfall forecasting using a weighted deep learning model</span></h1>
         
       </div>
     </div>
     
   </div>
-  </div><article class="md-text content"><a class="tag-plugin colorful button" color="theme" title="PUBs brief" target="_blank" rel="noopener" href="https://aubreycyt.github.io/categories/My-publication/"><img class="lazy"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/images/icon/PUBs-brief.svg" /><span>PUBs brief</span></a>
+  </div><article class="md-text content"><p>author: Chen Yutong, Huang Gang, Wang ya, et al.<br>作者：陈昱同，黄刚，汪亚，等.</p>
+<p>keywords: bias correction deep learning data imbalance extreme rainfall<br>关键词：偏差校正 深度学习 数据不均衡 极端降水</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p style='text-align:justify; text-justify:inter-word'>
+Weather forecasting has been playing an important role in socio-economics. However, operational numerical weather prediction (NWP) is insufficiently accurate in terms of precipitation forecasting, especially for heavy rainfalls. Previous works on NWP bias correction utilizing deep learning (DL) methods mostly focused on a local region, and the China-wide precipitation forecast correction had not been attempted. Meanwhile, earlier studies imposed no particular focus on strong rainfalls despite their severe catastrophic impacts. In this study, we propose a DL model called weighted U-Net (WU-Net) that incorporates sample weights for various precipitation events to improve the forecasts of intensive precipitation in China. It is found that WU-Net can further improve the forecasting skill of heaviest rainfall comparing with the ordinary U-Net and ECMWF-IFS. Further analysis shows that this improvement increases with growing lead time, and distributes mainly in the eastern parts of China. This study suggests that a DL model considering the imbalance of the meteorological data could further improve the precipitation forecasting generated by numerical weather prediction.
+</p>
+天气预报在社会经济生活中扮演者重要的角色。然而，数值天气预报（NWP）业务对降水、特别是强降水的预报还不够准确。过去利用深度学习（DL）对NWP进行校正的工作大多聚焦于局地，还没有校正整个中国范围内降水整体预报的尝试。同时，前人的研究也没有着重处理能引起严重灾害的强降水。本研究利用U-net算法，通过在训练时赋予降水事件不同的权重，构建了一个样本加权U-net（WU-net），以期改善对中国范围内强降水的预报。研究发现，相比于NWP乃至一般的U-net，WU-net能够进一步提升对强降水的预报技巧。后续分析亦显示此改善随着预报提前时间的增长而持续提高。从空间分布上看，改善主要集中在中国东部。这些发现表明，预置了样本不均衡信息的DL模型有能力改善NWP的降水预报。
 
-<h2 id="2024"><a href="#2024" class="headerlink" title="2024"></a>2024</h2><div style="text-indent:-2em;padding:2em">
-<p>Wang Y, Huang G, Pan B, Lin P, Niklas B, Tao W, <b>Chen Y</b>, Liu B, Li H (2024) <font color="darkred">Correcting Climate Model Sea Surface Temperature Simulations with Generative Adversarial Networks: Climatology, Interannual Variability, and Extremes.</font> Adv Atmos Sci. <a target="_blank" rel="noopener" href="https://doi.org/10.1007/s00376-024-3288-6">https://doi.org/10.1007/s00376-024-3288-6</a></p>
-<p><b>Chen Y</b>, Wang Y, Huang G, Tian Q (2024) <font color="darkred">Coupling Physical Factors for Precipitation Forecast in China With Graph Neural Network.</font> Geophysical Research Letters 51:e2023GL106676. <a target="_blank" rel="noopener" href="https://doi.org/10.1029/2023GL106676">https://doi.org/10.1029/2023GL106676</a></p>
+<p><a target="_blank" rel="noopener" href="https://doi.org/10.3389/fenvs.2023.1116672">https://doi.org/10.3389/fenvs.2023.1116672</a></p>
+<h2 id="Point-1-Data-imbalance"><a href="#Point-1-Data-imbalance" class="headerlink" title="Point 1. Data imbalance"></a>Point 1. Data imbalance</h2><div class="tag-plugin image"><div class="image-bg" style="padding:16px;"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/images/my-pub-1/@1.jpg" alt="The occurrence of each precipitation level in the dataset." data-fancybox="true" style="width:800px;"/></div><div class="image-meta"><span class="image-caption center">The occurrence of each precipitation level in the dataset.</span></div></div>
+<p style='text-align:justify; text-justify:inter-word'>
+The quantity of precipitation has a long-tailed distribution. Too few extreme samples will mislead DL, as a statistical method, to neglecting them. As a result, DL usually performs poorly in prediction heavy rainfall.
+</p>
+不同降水量的发生频率呈长尾分布——极端大的降水事件极少发生，因而在整个数据集中只有很少的样本。因此，作为一种具有统计性质的方法，深度学习往往会忽略这些极端降水的信息，导致强降水预报效果较差。
+
+<h2 id="Point-2-U-net"><a href="#Point-2-U-net" class="headerlink" title="Point 2. U-net"></a>Point 2. U-net</h2><div class="tag-plugin image"><div class="image-bg" style="padding:16px;"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/images/my-pub-1/@2.png" alt="The architecture of the U-Net using in this study." data-fancybox="true" style="width:800px;"/></div><div class="image-meta"><span class="image-caption center">The architecture of the U-Net using in this study.</span></div></div>
+<p style='text-align:justify; text-justify:inter-word'>
+U-net is a popular DL architecture in computer vision (CV), first proposed for biomedical segmentation. It gets its name from its U-shaped architecture. The down-branch functions as an encoder to extract the features from the input data. The up-branch is opposite, as a decoder, restoring the low-dimension features to prognostic fields. The skip connections tranmit features of different levels from the down-branch to the up-branch. In this study, a U-net was built to capture the features of input meteorologic data and produce weather predictions.
+</p>
+U-net是计算机视觉（CV）领域常用的一种深度学习架构，最早是为解决医学图像分割问题而提出的。U-net得名于它特殊的U型结构。其中，下行支作为编码器，提取输入数据的特征；上行支则作为解码器，把低维特征还原为预报场。在两者之间存在跳连，把不同层次的特征从编码器传递给解码器。本研究即建立了一个U-net模型，用以捕捉输入的气象数据的特征，并以此作出预报。
+
+<h2 id="Point-3-Sample-weight"><a href="#Point-3-Sample-weight" class="headerlink" title="Point 3. Sample weight"></a>Point 3. Sample weight</h2><p style='text-align:justify; text-justify:inter-word'>
+As mentioned in Point 1, data imbalance will aggravate the performance of DL on heavy precipitation. Therefore, the precipitation was graded by grid and assigned different weights according to:
+</p>
+$$
+w_{i} = \frac{S}{n \times s_{i}} \tag{3.1}\label{3.1}
+$$
+<p style='text-align:justify; text-justify:inter-word'>
+where $ S $ is the number of all the sample grid, $ n $ is the number of grades and $ s_{i} $ is the number of the sample gird of grade i. Grades with fewer occurrence would get larger weights, making the DL model learned more sufficiently about them. These weights was actually implemented in the loss function:
+</p>
+$$
+Loss(x) = -w_{arg y_{j} = 1} \sum_{j = 1}^{n} y_{i} log P_{j}(x) \tag{3.2}\label{3.2}
+$$
+<p style='text-align:justify; text-justify:inter-word'>
+among which $ j $ represents each dimension of the probability vector (the output of the softmax layer), and $ w_{arg y_{j} = 1} $ means the weight values $ w_{j} $ when the ground truth of the sample grid is in grade j. The U-net trained with this loss function is referred as weighted U-Net (WU-Net).
+</p>
+如Point 1中所述，样本不均衡使得深度学习模型难以较好地预测强降水事件。为了解决这一问题，我们把降水量按大小划分等级，并按式 $ \eqref{3.1} $ 赋予权重。式中 $ S $ 是样本总量（格点数），$ n $ 是总的等级数，$ s_{i} $ 是等级为i的样本总量。样本总量越少的等级，得到的权重越大，在训练时也将被更充分地“学习”。该权重实际是在损失函数$ \eqref{3.2} $中起作用的。式中 $ j $ 表示softmax层输出的概率向量的各维，$ w_{arg y_{j} = 1} $ 说明当样本点的实际降水等级为j时，权重取 $ w_{j} $。用这一加权的损失函数训练的U-net，我们称之为WU-net。
+<div class="article-footer fs14">
+    <section id="license">
+      <div class="header"><span>License</span></div>
+      <div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
 </div>
+    </section>
+    </div>
+</article>
+<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"></div><div class="item" id="next"><div class="note">Older</div><a href="/2024/09/25/About-me/">About me</a></div></section></div>
 
-<h2 id="2023"><a href="#2023" class="headerlink" title="2023"></a>2023</h2><div style="text-indent:-2em;padding:2em">
-<p><b>Chen Y</b>, Huang G, Wang Y, et al (2023) <font color="darkred">Improving the heavy rainfall forecasting using a weighted deep learning model.</font> Front Environ Sci 11:1116672. <a target="_blank" rel="noopener" href="https://doi.org/10.3389/fenvs.2023.1116672">https://doi.org/10.3389/fenvs.2023.1116672</a></p>
-</div></article>
+
+
 
 
 
@@ -115,7 +155,9 @@
 <div class="main-mask" onclick="sidebar.dismiss()"></div></div><aside class="l_right">
 <div class="widgets">
 
-<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">On This Page</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#2024"><span class="toc-text">2024</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2023"><span class="toc-text">2023</span></a></li></ol></div><div class="widget-footer">
+
+
+<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">On This Page</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Abstract"><span class="toc-text">Abstract</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Point-1-Data-imbalance"><span class="toc-text">Point 1. Data imbalance</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Point-2-U-net"><span class="toc-text">Point 2. U-net</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Point-3-Sample-weight"><span class="toc-text">Point 3. Sample weight</span></a></li></ol></div><div class="widget-footer">
 
 <a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"/><path stroke-linecap="round" stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/></g></svg><span>Scroll to Top</span></a></div></widget>
 </div></aside><div class='float-panel blur'>
@@ -565,6 +607,26 @@
       })
     }
   });
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    processEscapes: true
+  }
+});
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  }
+});
+MathJax.Hub.Queue(function() {
+  var all = MathJax.Hub.getAllJax(), i;
+  for(i=0; i < all.length; i += 1) {
+    all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
 </script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
