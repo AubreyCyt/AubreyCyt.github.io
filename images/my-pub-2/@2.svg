@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 226.77 170.08" style="enable-background:new 0 0 226.77 170.08;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#2C3E50;stroke-width:1.5;stroke-miterlimit:10;}
+	.st1{fill:#D9D9D9;stroke:#2C3E50;stroke-width:1.25;stroke-miterlimit:10;}
+	.st2{fill:#E53935;stroke:#2C3E50;stroke-width:1.25;stroke-miterlimit:10;}
+	.st3{fill:none;}
+	.st4{fill:#FFFFFF;}
+	.st5{font-family:'Arial-BoldMT';}
+	.st6{font-size:11.4341px;}
+	.st7{font-size:7.1463px;}
+</style>
+<line class="st0" x1="135.74" y1="21.15" x2="135.74" y2="149.17"/>
+<line class="st0" x1="186.4" y1="59.78" x2="135.74" y2="21.15"/>
+<line class="st0" x1="186.26" y1="111.17" x2="186.26" y2="59.78"/>
+<line class="st0" x1="186.26" y1="111.17" x2="135.74" y2="149.17"/>
+<line class="st0" x1="135.74" y1="21.15" x2="186.26" y2="111.17"/>
+<line class="st0" x1="186.26" y1="59.78" x2="135.74" y2="149.17"/>
+<line class="st0" x1="135.74" y1="21.15" x2="96.21" y2="84.53"/>
+<line class="st0" x1="135.74" y1="149.17" x2="96.21" y2="84.53"/>
+<line class="st0" x1="186.26" y1="59.78" x2="96.21" y2="84.53"/>
+<line class="st0" x1="186.26" y1="111.17" x2="96.21" y2="84.53"/>
+<line class="st0" x1="31.99" y1="84.53" x2="96.21" y2="84.53"/>
+<circle class="st1" cx="135.74" cy="21.15" r="20.26"/>
+<circle class="st1" cx="31.99" cy="84.53" r="20.26"/>
+<circle class="st1" cx="135.74" cy="149.17" r="20.26"/>
+<circle class="st1" cx="186.26" cy="111.17" r="20.26"/>
+<circle class="st1" cx="186.4" cy="59.78" r="20.26"/>
+<circle class="st2" cx="96.21" cy="84.53" r="20.26"/>
+<rect x="82.85" y="75.3" class="st3" width="26.98" height="18.04"/>
+<text transform="matrix(1 0 0 1 84.2941 89.2213)" class="st4 st5 st6">Rain</text>
+<rect x="16.93" y="76.16" class="st3" width="30.12" height="16.31"/>
+<text transform="matrix(1 0 0 1 18.2853 83.0948)"><tspan x="0" y="0" class="st5 st7">Relative</tspan><tspan x="-1.18" y="8.58" class="st5 st7">humidity</tspan></text>
+<rect x="115.19" y="143.43" class="st3" width="41.1" height="10.98"/>
+<text transform="matrix(1 0 0 1 120.444 151.983)" class="st5 st7">Pressure</text>
+<rect x="115.13" y="8.24" class="st3" width="41.74" height="26.75"/>
+<text transform="matrix(1 0 0 1 119.9147 20.3863)"><tspan x="0" y="0" class="st5 st7">Tempera</tspan><tspan x="29.79" y="0" class="st5 st7">-</tspan><tspan x="9.33" y="8.58" class="st5 st7">ture</tspan></text>
+<rect x="170.16" y="53.05" class="st3" width="33.49" height="12.05"/>
+<text transform="matrix(1 0 0 1 174.4069 62.1373)" class="st5 st7">U-Wind</text>
+<rect x="161.88" y="103.48" class="st3" width="49.88" height="14.95"/>
+<text transform="matrix(1 0 0 1 174.5202 114.0257)" class="st5 st7">V-Wind</text>
+</svg>
